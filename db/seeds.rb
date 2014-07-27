@@ -6,6 +6,32 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+Student.create(firstname: 'Samuel', lastname: 'Jackson', bio: '
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+  arcu eget nisi posuere feugiat non vitae ligula. Morbi ut purus eget
+  diam hendrerit scelerisque. Aliquam fermentum neque in suscipit faucibus.
+  Maecenas feugiat orci non velit sodales, vitae dapibus purus vulputate.
+  Duis semper, ligula non gravida convallis, ante tortor interdum massa, in
+  ultricies mauris lacus et velit.', github_username: 'Sjacks', twitter_url: 'https://twitter.com/',
+  linkedin_url: 'https://www.linkedin.com/',cohort_class: 'Front End')
+Student.create(firstname: 'Jacob', lastname: 'Lillis', bio: '
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+  arcu eget nisi posuere feugiat non vitae ligula. Morbi ut purus eget
+  diam hendrerit scelerisque. Aliquam fermentum neque in suscipit faucibus.
+  Maecenas feugiat orci non velit sodales, vitae dapibus purus vulputate.
+  Duis semper, ligula non gravida convallis, ante tortor interdum massa, in
+  ultricies mauris lacus et velit.', github_username: 'Jlillis', twitter_url: 'https://twitter.com/',
+               linkedin_url: 'https://www.linkedin.com/',cohort_class: 'Back End')
+Student.create(firstname: 'Chris', lastname: 'Anderson', bio: '
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+  arcu eget nisi posuere feugiat non vitae ligula. Morbi ut purus eget
+  diam hendrerit scelerisque. Aliquam fermentum neque in suscipit faucibus.
+  Maecenas feugiat orci non velit sodales, vitae dapibus purus vulputate.
+  Duis semper, ligula non gravida convallis, ante tortor interdum massa, in
+  ultricies mauris lacus et velit.', github_username: 'Canderson', twitter_url: 'https://twitter.com/',
+               linkedin_url: 'https://www.linkedin.com/',cohort_class: 'Back End')
+
+
 Student.create(firstname: "John", lastname: "Do", bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                github_username: "JohnDo", twitter_url: "twitter.com/JohnDo",
                linkedin_url: "linkedin.com/JohnDo", avatar_uid: "1",
@@ -30,3 +56,4 @@ Student.create(firstname: "Fat", lastname: "Zack", bio: "Lorem ipsum dolor sit a
                github_username: "FatZack", twitter_url: "twitter.com/FatZack",
                linkedin_url: "linkedin.com/FatZack", avatar_uid: "6",
                cohort_class: "Back End", cohort_id: 1, user_id: 6)                                                                    
+
